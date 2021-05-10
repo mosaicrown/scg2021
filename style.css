@@ -32,6 +32,12 @@ body,
 html {
 	overflow-x:hidden;
 }
+body {
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+	color: #1c1b1b;
+}
 
 ul {
 	padding: 0;
@@ -63,7 +69,7 @@ h5,
 h6 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
-	margin-top: 0;
+	margin-top: 100;
 }
 
 h1 {
@@ -264,9 +270,10 @@ iframe {
 .mu-logo-area {
 	display: inline;
 	float: left;
-	width: 50%;
+	text-align: center;
+	width: 100%;
 }
-
+	
 .mu-logo {
 	font-size: 30px;
 	font-family: 'Poppins', sans-serif;
@@ -398,6 +405,44 @@ iframe {
 	border-radius: 25px;
 	margin-top: 30px;
 }
+/*--------------------*/
+/* MENU */
+/*--------------------*/
+
+#mu-hero .navbar-default {
+	background-color: #fff;
+	border-color: #e7e7e7;
+	padding: 5px 0;
+}
+
+.mu-navbar {
+	top: -150px;
+	transition: all 0.5s;
+}
+
+.mu-nav-show {
+	top: 0px;
+}
+
+#mu-hero .navbar-default .navbar-brand {
+	padding: 15px 15px;
+	font-size: 28px;
+	line-height: 20px;
+}
+
+.mu-navbar .mu-menu li a {
+	color: #333;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+	color: #fff;
+}
+
 
 /*--------------------*/
 /* ABOUT US */
@@ -414,7 +459,8 @@ iframe {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding-bottom: 10px;
+	padding-top:100px;
 	width: 100%;
 }
 
@@ -423,6 +469,56 @@ iframe {
 	float: left;
 	width: 100%;
 }
+
+#mu-speakers {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+#mu-venue {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+		padding-bottom: 10px;
+	padding-top:100px;
+
+}
+
+.mu-venue-area {
+	display: inline;
+	float: left;
+	padding-bottom: 10px;
+	padding-top:100px;
+
+	width: 100%;
+}
+
+.mu-speakers-area {
+	display: inline;
+	float: left;
+		padding-bottom: 10px;
+	padding-top:100px;
+
+	width: 100%;
+}
+#mu-schedule {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-schedule-area {
+	display: inline;
+	float: left;
+		padding-bottom: 10px;
+	padding-top:100px;
+
+	width: 100%;
+}
+
 
 .mu-about-right {
 	display: inline;
@@ -439,6 +535,24 @@ iframe {
 	font-size: 15px;
 }
 
+#mu-call {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+		padding-bottom: 10px;
+	padding-top:100px;
+
+}
+
+.mu-call-area {
+	display: inline;
+	float: left;
+		padding-bottom: 10px;
+	padding-top:100px;
+
+	width: 100%;
+}
 
 /*WHY US*/
 
@@ -805,6 +919,7 @@ iframe {
 	margin-top: 25px;
 }
 
+
 /*--------------------*/
 /* CONTACT US */
 /*--------------------*/
@@ -819,8 +934,8 @@ iframe {
 .mu-contact-area {
 	display: inline;
 	float: left;
-	text-align: center;
-	padding: 100px 18%;
+	text-align: left;
+	padding: 0px;
 	width: 100%;
 }
 
