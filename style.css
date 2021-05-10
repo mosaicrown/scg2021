@@ -415,6 +415,18 @@ iframe {
 	padding: 5px 0;
 }
 
+/*** nav-bar always present ***/
+
+.mu-navbar {
+	top: 0;
+}
+
+.mu-hero-overlay {
+	top: 150px;
+}
+
+/*** nav-bar hidden when at the top of the page ***/
+/*
 .mu-navbar {
 	top: -150px;
 	transition: all 0.5s;
@@ -423,6 +435,7 @@ iframe {
 .mu-nav-show {
 	top: 0px;
 }
+*/
 
 #mu-hero .navbar-default .navbar-brand {
 	padding: 15px 15px;

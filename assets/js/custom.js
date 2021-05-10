@@ -24,6 +24,10 @@
 	/* ----------------------------------------------------------- */
 
 
+	/* actually does not do anything;
+	   uncomment relevant rules in style.css to activate.
+	   (search for .mu-nav-show)
+
 	jQuery(window).bind('scroll', function () {
     if ($(window).scrollTop() > 150) {
         $('.mu-navbar').addClass('mu-nav-show');
@@ -32,6 +36,7 @@
 	        $('.mu-navbar').removeClass('mu-nav-show');
 	    }
 	});
+	*/
 
 
 
