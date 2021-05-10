@@ -138,6 +138,7 @@ address {
 
 dl dt {
 	font-weight: 700;
+	margin-top: 1em;
 }
 
 dl dd {
@@ -422,7 +423,7 @@ iframe {
 }
 
 .mu-hero-overlay {
-	top: 150px;
+	margin-top: 20px;
 }
 
 /*** nav-bar hidden when at the top of the page ***/
@@ -473,7 +474,7 @@ iframe {
 	display: inline;
 	float: left;
 	padding-bottom: 10px;
-	padding-top:100px;
+	padding-top:50px;
 	width: 100%;
 }
 
@@ -489,33 +490,33 @@ iframe {
 	float: left;
 	width: 100%;
 }
+
+.mu-speakers-area {
+	display: inline;
+	float: left;
+	padding-bottom: 10px;
+	padding-top:50px;
+
+	width: 100%;
+}
+
 #mu-venue {
 	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
-		padding-bottom: 10px;
-	padding-top:100px;
-
 }
 
 .mu-venue-area {
 	display: inline;
 	float: left;
 	padding-bottom: 10px;
-	padding-top:100px;
+	padding-bottom: 10px;
+	padding-top:50px;
 
 	width: 100%;
 }
 
-.mu-speakers-area {
-	display: inline;
-	float: left;
-		padding-bottom: 10px;
-	padding-top:100px;
-
-	width: 100%;
-}
 #mu-schedule {
 	background-color: #fff;
 	display: inline;
@@ -527,7 +528,7 @@ iframe {
 	display: inline;
 	float: left;
 		padding-bottom: 10px;
-	padding-top:100px;
+	padding-top:50px;
 
 	width: 100%;
 }
@@ -554,7 +555,7 @@ iframe {
 	float: left;
 	width: 100%;
 		padding-bottom: 10px;
-	padding-top:100px;
+	padding-top:50px;
 
 }
 
@@ -562,7 +563,6 @@ iframe {
 	display: inline;
 	float: left;
 		padding-bottom: 10px;
-	padding-top:100px;
 
 	width: 100%;
 }
