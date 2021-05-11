@@ -1,0 +1,11 @@
+/* CfP style */
+
+html {
+    margin: 0 2em;
+}
+
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
