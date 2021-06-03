@@ -229,7 +229,8 @@ iframe {
 
 #mu-hero {
 	background-image: url("assets/images/head-featured-bg.jpg");
-	background-color: #3FBC9A;
+	background-color: #206050;
+	text-shadow: 0 0 7px black;
 	display: inline;
 	float: left;
 	width: 100%;
